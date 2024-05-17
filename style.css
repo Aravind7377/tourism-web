@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background:url(Courtallam-1-1024x576.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid greenyellow;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background:rgba(76, 136, 215, 0.5);
+    color: rgb(133, 171, 204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    margin-left: 7%;
+    margin-top: 1%;
+}
+nav .menu
+{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+nav .menu a{
+    color: rgb(243, 246, 246);
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 8px 18px;
+    border-radius: 30px;
+}
+nav .menu a:hover{
+  background: #1a4e6a;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+main section h1{
+    margin-left: 5%;
+    font-size: 50px;
+    color: red;
+    text-shadow: 2px 2px white;
+    text-align: center;
+}
+main section .topic{
+    font-size: 40px;
+    color: rgb(14, 188, 55);
+    font-style: oblique;
+    text-shadow: 2px -2px white;
+    margin-left: 7%;
+    margin-top: 3%;
+    text-align: center;
+}
+main section p{
+    margin-top: 3%;
+    color: rgb(222, 226, 227);
+    text-shadow: 1.5px 1px rgb(85, 83, 83);
+    text-align: center;
+    font-size: 20px;
+}
+.place
+{
+    text-align: center;
+    color: green;
+    background-color: greenyellow;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(60, 205, 116);
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #1d9541;
+  }
+  
+  div.gallery img {
+    margin-top: 2px;
+    width:400px;
+    height:200px;
+    margin-left: 35%;
+    border-radius: 2px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .ph{
+    text-align: center;
+    color: green;
+    background-color: greenyellow;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .box img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ff3d0036; 
+    border-radius: 13px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.2s;
+    box-shadow: rgba(224, 49, 157, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;;
+  }
+  .box img:hover {
+    filter: brightness(1);
+    transform: scale(1.05);
+  }
+  .container-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1a696a;
+}
+.footer-content{
+    width:100%;
+}
+.footer-content h2{
+  margin-left: 20px;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+    margin-left: 25px;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.social-icons li{
+  display: inline-block;
+  padding: 10px;
+}
+.social-icons i{
+  color: rgb(27, 191, 131);
+  font-size: 25px;
+}
+.bottom{
+  margin-right: 10%;
+  text-align: center;
+}
